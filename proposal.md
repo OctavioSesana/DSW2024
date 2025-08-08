@@ -33,5 +33,5 @@ Regularidad:
 |Listado<br>+<br>detalle| 1. Listado de canchas disponibles filtrado por tipo de cancha, muestra código y tipo => detalle CRUD Canchas<br> 2. Listado de reservas para el usuario correspondiente (muestra mail del mismo), muestra código de cancha, fecha, y hora de inicio. => detalle muestra datos completos de la reserva y mail del cliente con la sesión iniciada|
 |CUU/Epic|1. Reservar una cancha para jugar<br>2. Cobrar alquiler de cancha|
 
-### Testings
-E2E (End to end)
+## Testings
+### E2E (End to end)
