@@ -40,6 +40,8 @@ Para asegurar la calidad del código, se implementó un test unitario en el back
 
 El test se ejecutó usando el framework Jest y el resultado fue el siguiente:
 <img width="625" height="238" alt="image" src="https://github.com/user-attachments/assets/18c65543-96a3-4d5b-96b2-69a463650b40" />
+
+
 Este resultado confirma que la función de validación de hora opera según lo esperado, garantizando la integridad del formato de datos en una parte crítica de la
 aplicación.
 
