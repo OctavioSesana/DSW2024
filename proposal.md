@@ -34,4 +34,5 @@ Regularidad:
 |CUU/Epic|1. Reservar una cancha para jugar<br>2. Cobrar alquiler de cancha|
 
 ## Testings
-### E2E (End to end)
+### Backend
+
