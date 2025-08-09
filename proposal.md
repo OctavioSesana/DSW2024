@@ -49,6 +49,7 @@ aplicación.
 Para garantizar la integridad de los datos en el registro de usuarios, se implementó un test unitario en el backend para validar el formato de los DNI. Este test verifica que una función de utilidad confirme que el DNI sea un número entero de 8 dígitos, una regla de negocio fundamental para la identificación de los clientes.
 
 El test se ejecutó usando el framework Jest y el resultado fue el siguiente:
+
 <img width="328" height="196" alt="image" src="https://github.com/user-attachments/assets/fa0d76f2-9f62-4664-b290-ee6d06f62302" />
 
 
