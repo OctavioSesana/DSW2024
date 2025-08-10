@@ -33,6 +33,17 @@ Regularidad:
 |Listado<br>+<br>detalle| 1. Listado de canchas disponibles filtrado por tipo de cancha, muestra código y tipo => detalle CRUD Canchas<br> 2. Listado de reservas para el usuario correspondiente (muestra mail del mismo), muestra código de cancha, fecha, y hora de inicio. => detalle muestra datos completos de la reserva y mail del cliente con la sesión iniciada|
 |CUU/Epic|1. Reservar una cancha para jugar<br>2. Cobrar alquiler de cancha|
 
+### Alcance API.Rest
+PROXIMA ENTREGA: Examen Final
+
+Regularidad:
+|Req|Detalle|
+|:-|:-|
+|CRUD simple|1. CRUD Tipo Cancha<br>2. CRUD Cliente<br>3. CRUD Reserva|
+|CRUD dependiente|1. CRUD Cancha {depende de} CRUD Tipo Cancha<br>2. CRUD Reserva {depende de} CRUD Tipo de cancha|
+|Listado<br>+<br>detalle| 1. Listado de canchas disponibles filtrado por tipo de cancha, muestra código y tipo => detalle CRUD Canchas<br> 2. Listado de reservas para el usuario correspondiente (muestra mail del mismo), muestra código de cancha, fecha, y hora de inicio. => detalle muestra datos completos de la reserva y mail del cliente con la sesión iniciada|
+|CUU/Epic|1. Reservar una cancha para jugar<br>2. Cobrar alquiler de cancha|
+
 ## Testings
 ### Backend
 #### Test Unitario - Módulo de Reservas
