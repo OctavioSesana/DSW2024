@@ -33,16 +33,16 @@ Regularidad:
 |Listado<br>+<br>detalle| 1. Listado de canchas disponibles filtrado por tipo de cancha, muestra código y tipo => detalle CRUD Canchas<br> 2. Listado de reservas para el usuario correspondiente (muestra mail del mismo), muestra código de cancha, fecha, y hora de inicio. => detalle muestra datos completos de la reserva y mail del cliente con la sesión iniciada|
 |CUU/Epic|1. Reservar una cancha para jugar<br>2. Cobrar alquiler de cancha|
 
-### Alcance API.Rest
+### Alcance total del sistema
 PROXIMA ENTREGA: Examen Final
 
-Regularidad:
-|Req|Detalle|
-|:-|:-|
-|CRUD simple|1. CRUD Tipo Cancha<br>2. CRUD Cliente<br>3. CRUD Reserva|
-|CRUD dependiente|1. CRUD Cancha {depende de} CRUD Tipo Cancha<br>2. CRUD Reserva {depende de} CRUD Tipo de cancha|
-|Listado<br>+<br>detalle| 1. Listado de canchas disponibles filtrado por tipo de cancha, muestra código y tipo => detalle CRUD Canchas<br> 2. Listado de reservas para el usuario correspondiente (muestra mail del mismo), muestra código de cancha, fecha, y hora de inicio. => detalle muestra datos completos de la reserva y mail del cliente con la sesión iniciada|
-|CUU/Epic|1. Reservar una cancha para jugar<br>2. Cobrar alquiler de cancha|
+Examen Final:
+| Req | Detalle |
+|-----|---------|
+| **CRUD simple** | 1. CRUD Tipo Cancha <br> 2. CRUD Cliente (Persona) <br> 3. CRUD Empleado <br> 4. CRUD Artículo <br> 5. CRUD Reserva |
+| **CRUD dependiente** | 1. CRUD Cancha (depende de Tipo Cancha) <br> 2. CRUD Reserva (depende de Cancha y Cliente) <br> 3. CRUD Reserva_Articulo (depende de Reserva y Artículo) |
+| **Listado + detalle** | 1. Listado de canchas disponibles filtrado por tipo, con código y tipo → detalle de Cancha <br> 2. Listado de reservas por cliente (mail), con fecha, hora, código de cancha → detalle de Reserva <br> 3. Listado de artículos asociados a una reserva y su estado |
+| **CUU/Epic** | 1. Reservar cancha para jugar <br> 2. Cobrar alquiler de cancha vía MercadoPago <br> 3. Asociar artículos a una reserva y actualizar su disponibilidad <br> 4. Liberar artículos al eliminar una reserva |
 
 ## Testings
 ### Backend
