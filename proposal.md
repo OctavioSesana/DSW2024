@@ -65,3 +65,6 @@ El test se ejecutó usando el framework Jest y el resultado fue el siguiente:
 
 
 Este resultado confirma que la función de validación de DNI opera según lo esperado, asegurando la calidad de los datos de los usuarios desde el momento de su registro.
+
+#### E2E Test
+(subir video de funcionamiento)
