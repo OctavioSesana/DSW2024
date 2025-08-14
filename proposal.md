@@ -67,6 +67,17 @@ El test se ejecutó usando el framework Jest y el resultado fue el siguiente:
 Este resultado confirma que la función de validación de DNI opera según lo esperado, asegurando la calidad de los datos de los usuarios desde el momento de su registro.
 
 #### E2E Test
-(subir video de funcionamiento)
+Para garantizar la fiabilidad del sistema, se implementó un conjunto de pruebas end-to-end (E2E) con Cypress. Esta estrategia verifica que el flujo de usuario más crítico de la aplicación funcione correctamente, desde el front-end hasta el backend.
+
+El test de reservas verifica el siguiente flujo completo:
+
+Autenticación: Simula el inicio de sesión de un usuario.
+
+Interacción con la UI: Navega por la interfaz de usuario, selecciona una cancha y llena el formulario de reserva.
+
+Integración completa: Envía la reserva a la API del backend y valida que se confirme exitosamente.
+
+Este enfoque asegura que todos los componentes del sistema (front-end, backend y base de datos) se integren y funcionen correctamente en un entorno real.
+https://youtu.be/Sks25qBIB7Y
 
 ### Frontend
