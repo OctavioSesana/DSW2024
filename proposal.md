@@ -77,6 +77,6 @@ El test de reservas verifica el siguiente flujo completo:
 
 Este enfoque asegura que todos los componentes del sistema (front-end, backend y base de datos) se integren y funcionen correctamente en un entorno real.
 
-https://youtu.be/Sks25qBIB7Y
+Testing : https://youtu.be/Sks25qBIB7Y
 
 ### Frontend
