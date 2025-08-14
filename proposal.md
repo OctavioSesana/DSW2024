@@ -71,13 +71,12 @@ Para garantizar la fiabilidad del sistema, se implementó un conjunto de pruebas
 
 El test de reservas verifica el siguiente flujo completo:
 
-Autenticación: Simula el inicio de sesión de un usuario.
-
-Interacción con la UI: Navega por la interfaz de usuario, selecciona una cancha y llena el formulario de reserva.
-
-Integración completa: Envía la reserva a la API del backend y valida que se confirme exitosamente.
+- Autenticación: Simula el inicio de sesión de un usuario.
+- Interacción con la UI: Navega por la interfaz de usuario, selecciona una cancha y llena el formulario de reserva.
+- Integración completa: Envía la reserva a la API del backend y valida que se confirme exitosamente.
 
 Este enfoque asegura que todos los componentes del sistema (front-end, backend y base de datos) se integren y funcionen correctamente en un entorno real.
+
 https://youtu.be/Sks25qBIB7Y
 
 ### Frontend
