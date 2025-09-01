@@ -80,3 +80,15 @@ Este enfoque asegura que todos los componentes del sistema (front-end, backend y
 Testing : https://youtu.be/Sks25qBIB7Y
 
 ### Frontend
+#### Test Unitario - Comentarios.component
+Se realizó un test unitario en Front End sobre este componente con la finalidad de verificar que, cuando un usuario está conectado, se le muestre el formulario para escribir un comentario sobre la página, y cuando no, se le muestre un mensaje. También comprueba que al enviar un comentario, este se guarde en una lista y se limpie el formulario. Todo esto se ejecuta simulando que se utilize la base de datos del proyecto para que el test se realice de forma segura y que no haya problema con la base de datos en el futuro.
+
+Este test se realizó utilizando los frameworks Jasmine y Karma. 
+
+<img width="1035" height="515" alt="image" src="https://github.com/user-attachments/assets/c444a013-4f17-4afa-ae96-71ab21cc1065" />
+
+Aqui Karma ejecuta el test en una ventana de google
+
+<img width="1035" height="698" alt="image" src="https://github.com/user-attachments/assets/ccd0dcd0-0ff7-49a3-8190-ea443697ea4c" />
+
+
