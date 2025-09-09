@@ -81,7 +81,7 @@ Testing : https://youtu.be/Sks25qBIB7Y
 
 ### Frontend
 #### Test Unitario - Comentarios.component
-Se realizó un test unitario en Front End sobre este componente con la finalidad de verificar que, cuando un usuario está conectado, se le muestre el formulario para escribir un comentario sobre la página, y cuando no, se le muestre un mensaje. También comprueba que al enviar un comentario, este se guarde en una lista y se limpie el formulario. Todo esto se ejecuta simulando que se utilize la base de datos del proyecto para que el test se realice de forma segura y que no haya problema con la base de datos en el futuro.
+Se realizó un test unitario en Front End sobre este componente con la finalidad de verificar que, cuando un usuario está conectado, se le muestre el formulario para escribir un comentario sobre la página, y cuando no, se le muestre un mensaje. También comprueba que al enviar un comentario, este se guarde en una lista y se limpie el formulario. Todo esto se ejecuta simulando que se utilice la base de datos del proyecto para que el test se realice de forma segura y que no haya problema con la base de datos en el futuro.
 
 Este test se realizó utilizando los frameworks Jasmine y Karma. 
 
@@ -91,4 +91,8 @@ Aqui Karma ejecuta el test en una ventana de google
 
 <img width="1035" height="698" alt="image" src="https://github.com/user-attachments/assets/ccd0dcd0-0ff7-49a3-8190-ea443697ea4c" />
 
+#### Test Unitario - Canchas.component
+Se realizó un test unitario en Front End sobre el componente CanchasComponent con el objetivo de verificar su correcto funcionamiento en distintos escenarios de interacción del usuario. El test comprueba que el listado de canchas se muestre correctamente, que al hacer clic sobre una cancha se desplieguen sus detalles, y que al seleccionar una cancha se guarde su identificador en el almacenamiento local. 
+Para asegurar la independencia de los tests respecto a servicios externos, se utilizaron módulos de testing como HttpClientTestingModule y RouterTestingModule, simulando así las dependencias de red y navegación. 
 
+Este test fue implementado utilizando los frameworks Jasmine y Karma.
