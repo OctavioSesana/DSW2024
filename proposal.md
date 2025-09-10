@@ -95,4 +95,6 @@ Aqui Karma ejecuta el test en una ventana de google
 Se realizó un test unitario en Front End sobre el componente CanchasComponent con el objetivo de verificar su correcto funcionamiento en distintos escenarios de interacción del usuario. El test comprueba que el listado de canchas se muestre correctamente, que al hacer clic sobre una cancha se desplieguen sus detalles, y que al seleccionar una cancha se guarde su identificador en el almacenamiento local. 
 Para asegurar la independencia de los tests respecto a servicios externos, se utilizaron módulos de testing como HttpClientTestingModule y RouterTestingModule, simulando así las dependencias de red y navegación. 
 
+<img width="812" height="363" alt="image" src="https://github.com/user-attachments/assets/98e2f20c-167e-4a81-96c0-c0b77f6f79e3" />
+
 Este test fue implementado utilizando los frameworks Jasmine y Karma.
